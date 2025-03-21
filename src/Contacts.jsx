@@ -225,7 +225,6 @@ function Contact (){
       <div className='background-image-line'></div>
       <p className='kum'>kumasi</p>
       <p className='opposite-ghana'>Opposite the Ghana Cooperative Credit Union Association, Asafo -Kumasi</p>
-
      </div>
      </div>
 
