@@ -1,0 +1,440 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #4f9edb;
+  --secondary-color: #2ecc71;
+  --font-family: "Roboto Condensed", serif;
+  --font-size: 14px;
+  --background-color: #f5f5f5;
+  --text-color: rgb(201, 201, 201);
+  --text-color-Small-about:rgb(160, 160, 160);
+  --HOVER-Color: rgb(255, 255, 255);
+  --Nav-active: rgb(15, 15, 15);
+  --UL-Bcolor:rgb(255, 255, 255);
+  --UL-COLOR: rgb(78, 78, 78);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+.Contacts-Landing-page{
+  background-image: url(assets/Contact-Images/stock-photo-127927401.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.342);
+  background-blend-mode: multiply;
+  overflow: visible;
+  font-family: var(--font-family);
+  
+  } 
+
+
+  .contact-main{
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+     padding: 204px 0; 
+   
+  }
+
+  .contact-us{
+    text-transform: uppercase;
+    font-size: 1rem;
+     font-weight: 300; 
+    color: var(--UL-Bcolor);
+    letter-spacing: 4px;
+  }
+  
+  .relation{
+   color: var(--UL-Bcolor);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  } 
+  .contact-form-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 100px;
+  }
+
+  .contact-at-contact{
+    font-size: 1.07rem;
+    font-weight:300 ;
+    letter-spacing: 4px;
+    color: var(--Nav-active);
+    text-transform: uppercase;
+  }
+  
+  .start-new-project{
+    margin: 10px 0;
+    font-size: 4rem;
+    width: 14ch;
+    font-weight: bold;
+   
+  }
+
+  .contact-text{
+    width: 70ch;
+    color: var(--text-color-Small-about);
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  .contact-phone-and-email{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .phone-email{
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: black;
+  }
+  .phone-number{
+    text-decoration: none;
+    color: var(--text-color-Small-about);
+    font-size: 1.1rem;
+   
+   
+
+  }
+
+  .line-horizon-at-contact{
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 40px;
+  }
+  form{
+    display: flex;
+    gap: 30px;
+  }
+  .input-field{
+    width: 300px;
+    height: 60px;
+    padding: 25px 20px;
+    font-size: 18px;
+    background-color: #eeeeee;
+    margin-bottom: 25px;
+    border: none;
+    transition: 0.4s ease;
+  }
+
+  .input-field:focus, .text-field:focus{
+    outline: none;
+    background-color: white;
+    border-bottom: 4px solid #259afa;
+    box-shadow: 1px 1px 4px #259afa ;
+    transition: 0.2s ease;
+    
+  }
+
+  .text-field{
+    width: 300px;
+    height: 230px;
+    resize: none;
+    background-color: #eeeeee;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    transition: 0.4s ease-in-out;
+
+  }
+   .text-submit{
+    display: flex;
+   flex-direction: column; 
+  }
+  
+  .submit-button{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  .contact-at-location{
+    font-size: 1.07rem;
+    font-weight:300 ;
+    letter-spacing: 4px;
+    color: var(--Nav-active);
+    text-transform: uppercase;
+  }
+
+  .meet-us{
+    margin: 10px 0;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .main-location{
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+.background-image{
+  width: 400px;
+  height: 280px;
+  background-color: rgb(235, 235, 235);
+  padding-left: 50px;
+  padding-top: 80px;
+   transition: 1s ease;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  background-blend-mode: multiply;
+}
+
+
+.background-image-line{
+  transition: 0.4s ease;
+  width: 80px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.kum{
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+}
+
+  .opposite-ghana{
+    width: 30ch;
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .background-image:hover{
+    transition: 1s ease;
+   background-image: url(assets/Contact-Images/641ecf45924077.58416ffd1a9ac.jpg); 
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .background-image:hover .background-image-line{
+    background-color: white;
+    transition: 0.4s ease;
+  }
+
+  .background-image:hover .kum{
+    color: white;
+    transition: 0.4s ease;
+    
+  }
+  .background-image:hover .opposite-ghana{
+    color: white;
+    transition: 0.4s ease;
+    
+  }
+
+
+  
+
+
+  @media (max-width: 768px){
+
+    .contact-main{
+      text-align: center;
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      font-family: var(--font-family);
+      justify-content: center;
+      align-items: center;
+       padding: 50px 0; 
+     
+    }
+
+    
+    .relation{
+      font-size: 2rem;  
+    } 
+
+    .contact-form-section{
+      display: flex;
+      flex-direction: column;
+       /* justify-content: space-between; */
+      margin: 80px 20px; 
+    }
+
+    .contact-at-contact{
+      font-size: 1rem;
+      text-align: center;
+    }
+    
+    .start-new-project{
+      margin: 10px 0;
+      font-size: 2rem;
+      width: 30ch;
+      text-align: center;
+     
+    }
+    .contact-phone-and-email{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .phone-email{
+      margin-bottom: 20px;
+    } 
+   
+    .contact-phone-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-email-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-text{
+      width: 70ch;
+      color: var(--text-color-Small-about);
+      font-size: 1rem;
+      line-height: 30px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .text-submit{
+      display: flex;
+      flex-direction: column;
+    }
+    .text-field{
+      width: 100%;
+      height: 230px;
+      resize: none;
+      background-color: #eeeeee;
+      padding: 20px;
+      font-size: 18px;
+      border: none;
+      transition: 0.4s ease-in-out;
+  
+    }
+    .input-field{
+      width: 100%;
+      height: 55px;
+      margin-bottom: 15px;
+      background-color: #eeeeee;
+      padding: 20px;
+      font-size: 18px;
+      border: none;
+      transition: 0.4s ease-in-out;
+  
+    }
+
+    .submit-button{
+      width: 80px;
+      height: 30px;
+      display: flex;
+      margin-top: 10px;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+  
+    }
+
+    .contact-at-location{
+      font-size: 1rem;
+      font-weight:300;
+      letter-spacing: 4px;
+      color: var(--Nav-active);
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    .meet-us{
+      margin: 10px 0;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .background-image{
+      width: 450px;
+      height: 280px;
+      background-color: rgb(235, 235, 235);
+      padding-left: 50px;
+      padding-top: 80px;
+       transition: 1s ease;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; 
+      background-blend-mode: multiply;
+      justify-self: center;
+    
+    }
+
+    .background-image-line{
+      transition: 0.4s ease;
+      width: 80px;
+      height: 1px;
+      background-color: black;
+      margin-bottom: 20px;
+      margin-left: 130px; 
+     
+      
+    }
+    
+     .kum{
+      transition: 0.4s ease;
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: black;
+      text-transform: uppercase;
+      margin-left: 142px;
+    }
+    
+      .opposite-ghana{
+        transition: 0.4s ease;
+        width: 34ch;
+        line-height: 30px;
+        font-size: 18px;
+        margin-left: 30px;
+      } 
+
+    .main-location{
+      margin-left: 10px;
+      margin-bottom: 100px;
+    }
+
+
+
+
+  
+   
+  
+  
+  }

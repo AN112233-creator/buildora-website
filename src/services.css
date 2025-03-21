@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  --primary-color: #4f9edb;
+  --secondary-color: #2ecc71;
+  --font-family: "Roboto Condensed", serif;
+  --font-size: 14px;
+  --background-color: #f5f5f5;
+  --text-color: rgb(201, 201, 201);
+  --text-color-Small-about:rgb(160, 160, 160);
+  --HOVER-Color: rgb(255, 255, 255);
+  --Nav-active: rgb(15, 15, 15);
+  --UL-Bcolor:rgb(255, 255, 255);
+  --UL-COLOR: rgb(78, 78, 78);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+
+ 
+}
+
+.Services-Landing-page{
+  background-image: url(assets/Images-services/Landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.342);
+  background-blend-mode: multiply;
+  overflow: visible;
+  font-family: var(--font-family);
+  
+  } 
+
+  .main{
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+     padding: 190px 0; 
+   
+  }
+
+  .we-propose{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--UL-Bcolor);
+    letter-spacing: 4px;
+   
+  }
+  
+  .Best-services{
+    
+   color: var(--UL-Bcolor);
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+   
+  } 
+
+
+  @media (max-width: 768px){
+
+    .main{
+       padding: 184px 0; 
+     
+    }
+
+    
+    .Best-services{
+      font-size: 2rem;  
+    } 
+  
+   
+  
+  
+  }
