@@ -836,7 +836,7 @@ line-height: 20px;
     width: 100%;
     background: var(--UL-Bcolor);
     list-style: none;
-    padding: 120px 0px;
+    padding: 140px 0px;
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
     transform: translateY(-100%); 
     opacity: 0;
@@ -873,7 +873,7 @@ line-height: 20px;
     font-family: var(--font-family);
     justify-content: center;
     align-items: center;
-    padding: 240px 0;
+    padding: 250px 0;
    
   }
    .kumasi{
@@ -969,6 +969,7 @@ line-height: 20px;
 
   .custom-button-two {
    justify-self: center;
+   margin-left: 40px;
   
   }
 
