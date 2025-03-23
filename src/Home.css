@@ -836,7 +836,7 @@ line-height: 20px;
     width: 100%;
     background: var(--UL-Bcolor);
     list-style: none;
-    padding: 80px 0px;
+    padding: 120px 0px;
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
     transform: translateY(-100%); 
     opacity: 0;
@@ -858,20 +858,22 @@ line-height: 20px;
   }
 
   .socials-nav {
-    left: 89.2%;
+    left: 89.1%;
+    top: 13%;
+
   
   
    }
    main{
 
-    margin-top: 10px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-family: var(--font-family);
     justify-content: center;
     align-items: center;
-    padding: 200px 0;
+    padding: 240px 0;
    
   }
    .kumasi{
@@ -963,6 +965,11 @@ line-height: 20px;
     margin-top: 20px;
     margin-left: 30px;
     
+  }
+
+  .custom-button-two {
+   justify-self: center;
+  
   }
 
   .testimonials{
