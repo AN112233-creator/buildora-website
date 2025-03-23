@@ -155,7 +155,7 @@
     display: flex;
    flex-direction: column; 
   }
-  
+
   .submit-button{
     width: 80px;
     height: 30px;
@@ -249,6 +249,196 @@
 
 
   @media (max-width: 768px){
+
+    .contact-main{
+      text-align: center;
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      font-family: var(--font-family);
+      justify-content: center;
+      align-items: center;
+       padding: 50px 0; 
+     
+    }
+
+    
+    .relation{
+      font-size: 2rem;  
+    } 
+
+    .contact-form-section{
+      display: flex;
+      flex-direction: column;
+       /* justify-content: space-between; */
+      margin: 80px 20px; 
+    }
+
+    .contact-at-contact{
+      font-size: 1rem;
+      text-align: center;
+    }
+    
+    .start-new-project{
+      margin: 10px 0;
+      font-size: 2rem;
+      width: 30ch;
+      text-align: center;
+     
+    }
+    .contact-phone-and-email{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .phone-email{
+      margin-bottom: 20px;
+    } 
+   
+    .contact-phone-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-email-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-text{
+      width: 70ch;
+      color: var(--text-color-Small-about);
+      font-size: 1rem;
+      line-height: 30px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .text-submit{
+      display: flex;
+      flex-direction: column;
+    }
+    .text-field{
+      width: 100%;
+      height: 230px;
+      resize: none;
+      background-color: #eeeeee;
+      padding: 20px;
+      font-size: 18px;
+      border: none;
+      transition: 0.4s ease-in-out;
+  
+    }
+    .input-field{
+      width: 100%;
+      height: 55px;
+      margin-bottom: 15px;
+      background-color: #eeeeee;
+      padding: 20px;
+      font-size: 18px;
+      border: none;
+      transition: 0.4s ease-in-out;
+  
+    }
+
+    .submit-button{
+      width: 80px;
+      height: 30px;
+      display: flex;
+      margin-top: 10px;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+  
+    }
+
+    .contact-at-location{
+      font-size: 1rem;
+      font-weight:300;
+      letter-spacing: 4px;
+      color: var(--Nav-active);
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    .meet-us{
+      margin: 10px 0;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .background-image{
+      width: 450px;
+      height: 280px;
+      background-color: rgb(235, 235, 235);
+      padding-left: 50px;
+      padding-top: 80px;
+       transition: 1s ease;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; 
+      background-blend-mode: multiply;
+      justify-self: center;
+    
+    }
+
+    .background-image-line{
+      transition: 0.4s ease;
+      width: 80px;
+      height: 1px;
+      background-color: black;
+      margin-bottom: 20px;
+      margin-left: 130px; 
+     
+      
+    }
+    
+     .kum{
+      transition: 0.4s ease;
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: black;
+      text-transform: uppercase;
+      margin-left: 142px;
+    }
+    
+      .opposite-ghana{
+        transition: 0.4s ease;
+        width: 34ch;
+        line-height: 30px;
+        font-size: 18px;
+        margin-left: 30px;
+      } 
+
+    .main-location{
+      margin-left: 10px;
+      margin-bottom: 100px;
+    }
+
+
+
+
+  
+   
+  
+  
+  }
+  @media (max-width: 414px){
 
     .contact-main{
       text-align: center;

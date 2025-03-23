@@ -147,9 +147,9 @@ function  About () {
 
 
         <div className="content">
-        <p className='About'>ABOUT US</p>
-            <h1 className='who-we-are'>Who we are</h1>
-            <p className="main-text">
+        <p className='About-about'>ABOUT US</p>
+            <h1 className='who-we-are-about'>Who we are</h1>
+            <p className="main-text-about">
                 Buildora Construction has a good history of over 29 years in the construction industry in Ghana in diverse areas of infrastructure development. 
                 Buildora Construction is today one of the largest contractors in Ghana. We have successfully completed some of the most challenging infrastructure 
                 projects in the country and hope to cross over through West Africa.

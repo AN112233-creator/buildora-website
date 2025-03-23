@@ -133,11 +133,11 @@ function Home (){
             <span className="text">YEARS OF EXPERIENCE</span>
           </div>
 
-          <div className="small-about">
-            <p className='About'>ABOUT US</p>
+          <div className="small-about-home">
+            <p className='About-home'>ABOUT US</p>
             <h4 className='who-we-are'>Who we are</h4>
-            <p className="main-text">Buildora Construction has a good history of over 40 years in the construction industry in Ghana in diverse areas of infrastructure development.Buildora Construction is today one of the largest contractors in Ghana. We have successfully completed some of the most challenging infrastructure projects in the country and hoping to cross over through West Africa.</p>
-           <p className="sapce-up"> Buildora Construction undertakes both government and private sector contracts, and has set high standards in meeting the special needs and demands of every project.</p>
+            <p className="main-text-home">Buildora Construction has a good history of over 40 years in the construction industry in Ghana in diverse areas of infrastructure development.Buildora Construction is today one of the largest contractors in Ghana. We have successfully completed some of the most challenging infrastructure projects in the country and hoping to cross over through West Africa.</p>
+           <p className="sapce-up-home"> Buildora Construction undertakes both government and private sector contracts, and has set high standards in meeting the special needs and demands of every project.</p>
           </div>
       </section>
 
@@ -147,10 +147,10 @@ function Home (){
         </p>
         <h2 className='make-it'>Make it with passion.</h2>
        
-        <div className="image-description">
+        <div className="image-description-home">
           
           <div className=''>
-             <p className='description'>6-Storey offices and Classrooms (Accra city campus) for KNUST institute of distance learning at Adenta – Accra</p>
+             <p className='description-home'>6-Storey offices and Classrooms (Accra city campus) for KNUST institute of distance learning at Adenta – Accra</p>
           <div className="read">
             <p className='read-word'>READ</p>
           <span className="arrow-left arrow">&#8594;</span>
@@ -158,17 +158,17 @@ function Home (){
 
           </div>
          
-         <div className="image-one">
+         <div className="image-one-home">
           <img  className='img'  src={firstImage} alt="our projects" width= "600" height= "400"/>
           </div>
         </div>
       </section>
       <section className="section-three">
        
-        <div className="image-description-two">
+        <div className="image-description-two-home">
           
           <div className=''>
-             <p className='description'>Construction for School of Nursing, KNUST</p>
+             <p className='description-home'>Construction for School of Nursing, KNUST</p>
           <div className="read">
             <p className='read-word'>READ</p>
           <span className="arrow-left arrow">&#8594;</span>
@@ -176,7 +176,7 @@ function Home (){
 
           </div>
          
-         <div className="image-one">
+         <div className="image-one-home">
           <img   src={firstImage} alt="our projects" width= "600" height= "400"/>
           </div>
         </div>
