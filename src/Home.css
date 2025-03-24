@@ -836,7 +836,7 @@ line-height: 20px;
     width: 100%;
     background: var(--UL-Bcolor);
     list-style: none;
-    padding: 140px 0px;
+    padding: 80px 0px;
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
     transform: translateY(-100%); 
     opacity: 0;
@@ -969,7 +969,7 @@ line-height: 20px;
 
   .custom-button-two {
    justify-self: center;
-   margin-left: 40px;
+   margin-left: 80px;
   
   }
 
