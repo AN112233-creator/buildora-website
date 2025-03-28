@@ -181,7 +181,7 @@ function Home (){
           </div>
         </div>
 
-        <button  className= {`custom-button-two ${isOpen ? "no-display" : ""}`}>
+        <button  className= {`custom-button-two-home ${isOpen ? "no-display" : ""}`}>
         <span className='line-two left'></span>
         LOAD MORE 
         <span className='line-two  right'></span>

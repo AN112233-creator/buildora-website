@@ -208,7 +208,7 @@ function  About () {
             
             <h2>Data and Audio-visual Systems</h2>
             <p>Our wide range of products and services offer you unlimited options.</p>
-            <button  className= {`custom-button-two ${isOpen ? "no-display" : ""}`}>
+            <button  className= {`custom-button-two ${isOpen ? "" : ""}`}>
         <span className='line-two left'></span>
         READ
         <span className='line-two  right'></span>

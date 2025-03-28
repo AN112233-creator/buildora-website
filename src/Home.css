@@ -460,7 +460,7 @@ right:140px;
  
 }
 
-.custom-button-two {
+.custom-button-two-home {
   width: 140px;
  height: 40px; 
   position: relative;  
@@ -482,46 +482,45 @@ right:140px;
 
 
 }
-.custom-button-two:hover {
+.custom-button-two-home:hover {
   background-color: var(--Nav-active);
   color: var(--UL-Bcolor);
   transition: 0.3s ease-in-out;
 
 }
-.custom-button-two:hover .line-two{
+.custom-button-two-home:hover .line-two{
  background-color: var(--Nav-active);
 
 }
-
 
 .no-display{
  display: none;
 }
 
-.custom-button-two .line-two {
+.custom-button-two-home .line-two {
  position: absolute;
  width: 20px; 
  height: 1px; 
  background-color: var(--Nav-active);
 }
 
-.custom-button-two .left {
+.custom-button-two-home .left {
  left: -10px;
  transition: left 0.4s ease-in-out;
 }
 
-.custom-button-two .right {
+.custom-button-two-home .right {
  right: -10px;
  transition: right 0.4s ease-in-out;
 }
 
 
-.custom-button-two:hover .left {
+.custom-button-two-home:hover .left {
  left: -30px;
  
 }
 
-.custom-button-two:hover .right {
+.custom-button-two-home:hover .right {
 right:-30px;
 }
 
@@ -782,9 +781,6 @@ line-height: 20px;
     flex-direction: column;
    }
   
-
-
-
 }
 @media (max-width: 414px){
 

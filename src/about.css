@@ -323,7 +323,6 @@
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding-top: 100px;
   padding-bottom: 300px;
   background-image: url(assets/About-Images/a6ec5612273735.56265d52bc52e-1.jpg);
@@ -350,7 +349,6 @@
 }
 
 .what-we-do{
-  /* margin: 10px 0; */
   font-size: 3rem;
   font-weight: bold;
   
@@ -379,6 +377,69 @@
   border-radius: px;
   box-shadow: 0 17px 50px rgba(61, 61, 61, 0.473);
   transition: transform 0.3s ease-in-out;
+}
+.custom-button-two {
+  width: 140px;
+ height: 40px; 
+  position: relative;  
+ background: transparent;
+ color: var(--Nav-active);
+ font-size: 13px;
+ font-weight: bold;
+ border: 1px solid var(--Nav-active);
+ padding: 10px 10px; 
+ text-transform: uppercase;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 15px; 
+ display: flex;
+ justify-self: center;
+ margin-top: 34px;
+
+
+}
+.custom-button-two:hover {
+  background-color: var(--Nav-active);
+  color: var(--UL-Bcolor);
+  transition: 0.3s ease-in-out;
+
+}
+.custom-button-two:hover .line-two{
+ background-color: var(--Nav-active);
+
+}
+
+.no-display{
+ display: none;
+}
+
+.custom-button-two .line-two {
+ position: absolute;
+ width: 20px; 
+ height: 1px; 
+ background-color: var(--Nav-active);
+}
+
+.custom-button-two .left {
+ left: -10px;
+ transition: left 0.4s ease-in-out;
+}
+
+.custom-button-two .right {
+ right: -10px;
+ transition: right 0.4s ease-in-out;
+}
+
+
+.custom-button-two:hover .left {
+ left: -30px;
+ 
+}
+
+.custom-button-two:hover .right {
+right:-30px;
 }
 
 
@@ -504,7 +565,6 @@ button:hover {
 .vision-mission{
   display: flex;
    justify-content: center; 
-  /*  margin: 100px 0;  */
 }
 
 .Our-mission, .Our-vision{
@@ -709,7 +769,6 @@ margin-top: 150px;
 
   }  
   @media (max-width: 414px){
-
     nav{
   
       justify-content: space-between;
@@ -745,15 +804,11 @@ margin-top: 150px;
       color: var(--Nav-active)
     }
   
-  
-   
-  
     ul.open {
       transform: translateY(0); 
       opacity: 1;
       pointer-events: auto;
     }
-
     .show-small{
       display: flex; 
       text-align: center;
@@ -771,10 +826,83 @@ margin-top: 150px;
        
        
   } 
+  .about-our-team{
+    font-size: 1.2rem;
+    
+  }
 
     .we-are-based{
-      font-size: 2rem;
+      font-size: 1.4rem;
      
+    }
+    .about-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: 40px;
+      background: white;
+      margin: 20px auto; */
+  }
+    .number {
+      font-size: 90px;
+      font-weight: bold;
+      margin-bottom: 0px;
+     
+    }
+    
+    .text {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color:#555;
+    
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 7px;
+      width:600px ;
+      height: 400px;
+     place-content: center;
+    
+    }
+    
+    .stat-box {
+      display: flex;
+      flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .About-about{
+      font-size: 1.2rem;
+      font-weight: lighter;
+      text-align: center;
+    }
+    .who-we-are-about{
+      margin: 10px 0;
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+     
+    }
+    
+    
+    .main-text-about{
+      width: 50ch;
+      color: var(--text-color-Small-about);
+      line-height: 30px;
+      text-align: center;
+    }
+    
+    .sapce-up{
+      margin-top: 20px;
+      width: 50ch;
+      color: var(--text-color-Small-about);
+      line-height: 30px;
     }
     .services {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -785,9 +913,24 @@ margin-top: 150px;
   
   }
 
-  .icons-fonts{
-    font-size: 3rem;
+  .services-services{
+    font-size: 1.1rem;
+     font-weight: lighter; 
+     color: var(--UL-Bcolor); 
   }
+  
+  .what-we-do{
+    font-size: 1.8rem;
+    width: 20ch;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  .icons-fonts{
+    font-size: 2.4rem;
+  }
+
 
   .service-card h2 {
     font-size: 1.7rem;
@@ -800,9 +943,34 @@ margin-top: 150px;
     margin-bottom: 18px;
     font-weight: 400;
   }
+
+  .custom-button-two {
+     width: 140px;
+   height: 40px; 
+    position: relative;  
+   background: transparent;
+   color: var(--Nav-active);
+   font-size: 13px;
+   font-weight: bold;
+   border: 1px solid var(--Nav-active);
+   padding: 10px 10px; 
+   text-transform: uppercase;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px; 
+   justify-self: center;
+   margin-top: 34px; 
+   display: flex;
+   margin-left: 0px;
+  
+  
+  }
   .service-card:first-child{
     height: 300px;
     font-size: 1.8rem;
+    display: flex;
    
     
    
@@ -857,12 +1025,38 @@ margin-top: 150px;
     display: flex;
     flex-direction: column;
      align-items: center; 
+   
     
   }
 
+  .mission{
+    margin-left:  0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
   .vision{
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     } 
 
+    .Our-mission, .Our-vision{
+      font-size: 1.8rem;
+    }
+    
+    .mission-statement{
+      width: 50ch;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 20px;
+    }
+    
+    .vision-statement{
+      font-style: italic;
+      font-size: 16px;
+    }
+    
 
   }  
