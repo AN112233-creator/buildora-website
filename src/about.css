@@ -219,7 +219,7 @@
     
   }
 
-  /* main{
+   .main-about{
     text-align: center;
     margin-top: 80px;
     display: flex;
@@ -228,9 +228,9 @@
     font-family: var(--font-family);
     justify-content: center;
     align-items: center;
-    padding: 150px 0;
+    padding: 170px 0;
    
-  } */
+  } 
 
   .about-our-team{
     font-size: 1.4rem;
@@ -820,6 +820,19 @@ margin-top: 150px;
   display: none;
         
    }
+
+   .main-about{
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: var(--font-family);
+    justify-content: center;
+    align-items: center;
+    padding: 180px 0;
+   
+  }
 
    .OurTeam{ 
    display: none;
