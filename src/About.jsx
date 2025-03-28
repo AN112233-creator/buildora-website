@@ -116,7 +116,7 @@ function  About () {
                           <a href="#"> <img src= {twitter} alt="twit" /> </a>
                           <a href="#"> <img src= {google} alt="goo" /></a> 
                           </div>
-         <main className='main-about'>
+         <main>
         <h4 className='about-our-team'>ABOUT OUR TEAM</h4>
         <p className='we-are-based'>We are based on collective work
         <span className='and-share'>and shared knowledge</span></p>

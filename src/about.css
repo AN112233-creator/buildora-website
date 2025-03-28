@@ -219,7 +219,7 @@
     
   }
 
-   .main-about{
+   /* .main-about{
     text-align: center;
     margin-top: 80px;
     display: flex;
@@ -230,7 +230,7 @@
     align-items: center;
     padding: 170px 0;
    
-  } 
+  }  */
 
   .about-our-team{
     font-size: 1.4rem;
@@ -821,7 +821,7 @@ margin-top: 150px;
         
    }
 
-   .main-about{
+  /*  .main-about{
     text-align: center;
     margin-top: 80px;
     display: flex;
@@ -832,7 +832,7 @@ margin-top: 150px;
     align-items: center;
     padding: 180px 0;
    
-  }
+  } */
 
    .OurTeam{ 
    display: none;
